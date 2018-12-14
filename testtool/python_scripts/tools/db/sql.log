@@ -1,0 +1,13 @@
+select * from game_user;
+show tables;
+show tables
+select * from game_user;
+
+select * from game)use;
+select * from game_user limit 10;
+INSERT INTO game_zhuanjin_rank_day ( `userid`, `nickname`, `amount`, `rank_trend`, `end_date`, `raw_add_time`, `raw_update_time`, `rank`, `pic`) VALUES ( '2037609614', 'test23', '73017681', '3', '2016-01-21', '2016-01-22 11:56:37', '2016-01-22 11:56:37', '1', '/files/images/photo/head-male-50.jpg?v=201601201503');
+delete from game_zhuanjin_rank_day where userid = 13908;
+delete from game_zhuanjin_rank_day where id = 13908;
+select * from game_user limit 10;
+select * from game_user limit 10;
+select * from game_user limit 10;

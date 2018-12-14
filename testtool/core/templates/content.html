@@ -1,0 +1,12 @@
+<table>
+  <form action="sendemail" method="post">
+    {% csrf_token %}    
+    {{ form }}
+    <tr>
+      <td colspan="2">
+        <input type="submit" name="submit" value="Post">
+        <input type="submit" name="preview" value="Preview">
+      </td>
+    </tr>
+  </form>
+</table>
